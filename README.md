@@ -45,18 +45,18 @@ Every team registered.
 
 ```
 [
-	{
-		id: 1,
-		teamName: "Avaí/Kindermann"
-	},
-	{
-		id: 2,
-		teamName: "Bahia"
-	},
-	{
-		id: 3,
-		teamName: "Botafogo"
-	},
+  {
+    id: 1,
+    teamName: "Avaí/Kindermann"
+  },
+  {
+    id: 2,
+    teamName: "Bahia"
+  },
+  {
+    id: 3,
+    teamName: "Botafogo"
+   },
 ]
 ```
 
@@ -68,8 +68,8 @@ The team with current id.
 
 ```
 {
-	id: 1,
-	teamName: "Avaí/Kindermann"
+  id: 1,
+  teamName: "Avaí/Kindermann"
 },
 
 ```
@@ -80,7 +80,7 @@ The team with current id.
 
 Every match registered.
 
-```json
+```
 [
   {
     id: 1,
@@ -119,7 +119,7 @@ Every match registered.
 
 Every finished match.
 
-```json
+```
 [
   {
     id: 1,
@@ -144,7 +144,7 @@ Every finished match.
 
 Every finished match.
 
-```json
+```
 [
   {
     id: 1,
@@ -169,7 +169,7 @@ Should recieve `authorization` filled with user `token`.
 
 ### Body
 
-```json
+```
 {
   homeTeam: 16, 
   awayTeam: 8, 
@@ -181,7 +181,7 @@ Should recieve `authorization` filled with user `token`.
 
 ### Should return
 
-```json
+```
 {
   id: 1,
   homeTeam: 16,
@@ -200,7 +200,7 @@ Should finish match with current id.
 
 ## Body
 
-```json
+```
 {
   homeTeamGoals: 3,
   awayTeamGoals: 1
@@ -213,7 +213,7 @@ Should update match score.
 
 ### Should return
 
-```json
+```
 [
   {
     name: "Palmeiras",
@@ -248,7 +248,7 @@ Should update match score.
 
 Leaderboard based on teams that plays how visiters.
 
-```json
+```
 [
   {
     name: "Palmeiras",
@@ -283,7 +283,7 @@ Leaderboard based on teams that plays how visiters.
 
 Leaderboard based on teams that plays how home.
 
-```json
+```
 [
   {
     name: "Santos",
