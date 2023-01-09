@@ -1,6 +1,5 @@
 import { Router } from 'express';
-import getAll, { getAway, getHome } from '../controllers/leaderboardController';
-import controller from '../controllers/leaderboardController'
+import controller from '../controllers/leaderboardController';
 
 const router = Router();
 
