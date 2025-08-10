@@ -9,6 +9,10 @@ const config: Options = {
   port: Number(process.env.DB_PORT) || 3002,
   dialect: 'postgres',
   dialectOptions: {
+    ssl: {
+      require: true,
+      rejectUnauthorized: false
+    },
     timezone: 'Z',
   },
   logging: false,
